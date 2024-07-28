@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+        <Button
+            android:id="@+id/backbtnatt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:drawableTop="@drawable/baseline_arrow_back_24"
+            android:background="@android:color/transparent"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:src="@drawable/greenlogo"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/refreshfun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbtn"
+        android:text="Refesh"
+        android:textColor="@color/white"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:background="@color/lightgray">
+
+                <TextView
+                    android:id="@+id/fun9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Karachi to Dubai"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/joy9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8PM PST"
+                    android:textSize="28dp"
+                    android:padding="10dp"
+                    android:textColor="@color/darkgray"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+</LinearLayout>
